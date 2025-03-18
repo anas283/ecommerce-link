@@ -1,10 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
+import SellixLogo from "../public/sellix.svg";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-6">
+
+      <div className="flex flex-row mx-auto items-center gap-2 mb-6">
+        <Image src={SellixLogo} width={30} height={30} alt="sellix-logo" />
+        <span className="text-lg font-bold">Sellix</span>
+      </div>
+
       <h1 className="text-4xl lg:text-6xl text-slate-700 font-bold mb-4 max-w-2xl text-center">Turn Your Bio Link into a Shoppable Store</h1>
       <p className="text-base text-gray-600 mt-2 mb-6">Sell products, track analytics, and accept payments directly from your bio link.</p>
       
