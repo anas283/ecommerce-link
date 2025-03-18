@@ -98,7 +98,7 @@ export default function Home() {
           <div className="flex flex-col gap-2">
             <CircleCheck className="w-10 h-10 text-green-500 mx-auto" />
             <p className="text-center">
-              Yay, you're on the waitlist!
+              Yay, you are on the waitlist!
             </p>
           </div>
         }
