@@ -11,12 +11,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Stellium - Shoppable Link in Bio for E-Commerce',
     description: 'Turn your bio into a sales powerhouse with Stellium. Create shoppable links, track real-time analytics, and accept payments via Stripe & PayPal – all in one simple tool.',
-    images: "/meta-image.png"
+    images: "/meta-image.svg"
   },
   twitter: {
     title: 'Stellium - Shoppable Link in Bio for E-Commerce',
     description: 'Turn your bio into a sales powerhouse with Stellium. Create shoppable links, track real-time analytics, and accept payments via Stripe & PayPal – all in one simple tool.',
-    images: "/meta-image.png"
+    images: "/meta-image.svg"
   },
 };
 
