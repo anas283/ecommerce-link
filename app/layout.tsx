@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Sellix",
-  description: "Sell products, track analytics, and accept payments directly from your bio link.",
+  title: "Stellium - Shoppable Link in Bio for E-Commerce",
+  description: "Turn your bio into a sales powerhouse with Stellium. Create shoppable links, track real-time analytics, and accept payments via Stripe & PayPal – all in one simple tool.",
 };
 
 export default function RootLayout({

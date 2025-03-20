@@ -63,7 +63,7 @@ export default function Home() {
       <div className="flex items-center flex-col max-w-5xl">
         <div className="flex flex-row mx-auto items-center gap-2 mb-6">
           <Image src={SellixLogo} width={30} height={30} alt="sellix-logo" />
-          <span className="text-lg font-bold">Sellix</span>
+          <span className="text-lg font-bold">Stellium</span>
         </div>
 
         <h1 className="text-4xl lg:text-6xl text-slate-700 font-bold mb-4 max-w-2xl text-center">Turn Your Bio Link into a Shoppable Store</h1>
