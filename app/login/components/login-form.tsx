@@ -2,7 +2,6 @@
 
 import * as React from "react"
 
-import { cn } from "@/lib/utils"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
@@ -25,9 +24,7 @@ const formSchema = z.object({
   password: z.string().min(8, "Password need to be at least 8 characters long" ),
 })
 
-interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
-
-export function LoginForm({ className, ...props }: UserAuthFormProps) {
+export function LoginForm() {
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -49,7 +46,7 @@ export function LoginForm({ className, ...props }: UserAuthFormProps) {
   }
 
   return (
-    <div className={cn("grid gap-6", className)} {...props}>
+    <div className="grid gap-6">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="grid space-y-5">
           <FormField
